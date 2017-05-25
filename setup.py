@@ -22,6 +22,6 @@ setup(
     author_email='reubano@gmail.com',
     packages=find_packages(exclude=['tests']),
     include_package_data=True,
-    install_requires=['riko==0.51.0','meza==0.37.0'],
+    install_requires=['meza==0.37.0'],
     zip_safe=False
 )
