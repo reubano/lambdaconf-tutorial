@@ -68,13 +68,13 @@ ipython
 python3
 ```
 
-Play around with the code. You should now be in an interactive shell that looks something like this:
+You should now be in an interactive shell that looks something like this:
 
 ```
-Python 3.6.1 (default, May 24 2017, 01:02:17) 
+Python 3.6.1 (default, May 24 2017, 01:02:17)
 [GCC 4.2.1 Compatible Apple LLVM 6.0 (clang-600.0.57)] on darwin
 Type "help", "copyright", "credits" or "license" for more information.
->>> 
+>>>
 ```
 
 In this interactive shell, you can enter any valid Python and immediately see the result.
@@ -87,19 +87,19 @@ In this interactive shell, you can enter any valid Python and immediately see th
 4
 ```
 
-To play around with the code, view the following files in your text editor of choice.
+To play around with the code, view the following files in your text editor of your choice.
 
 - [Presentation](https://github.com/reubano/lambdaconf-tutorial/blob/master/presentation.py): use to follow along as I talk, and reference during the exercises
-- [Exercises](https://github.com/reubano/lambdaconf-tutorial/blob/master/exercises.py): test your own code by typing `python3 exercises.py` in a terminal
-- [Solutions](https://github.com/reubano/lambdaconf-tutorial/blob/master/solutions.py): see how the solution should look by typing `python3 solutions.py` in a terminal. 
+- [Exercises](https://github.com/reubano/lambdaconf-tutorial/blob/master/exercises.py): test your own code by typing `python3 exercises.py` in the terminal (*NOT* a python shell)
+- [Solutions](https://github.com/reubano/lambdaconf-tutorial/blob/master/solutions.py): see how the solution should look by typing `python3 solutions.py` in the terminal (*NOT* a python shell)
 
 ### Remote
 
 To play around with the code, [visit mybinder](http://beta.mybinder.org/v2/gh/reubano/lambdaconf-tutorial/master) and select the appropriate notebook.
 
 - Presentation (`presentation.ipynb`): use to follow along as I talk, and reference during the exercises
-- Exercises (`exercises.ipynb`): test your own code by typing directly into your browser  
-- Solutions (`solution.ipynb`): interact with the solution and view the intermediate results 
+- Exercises (`exercises.ipynb`): test your own code by typing directly into your browser
+- Solutions (`solution.ipynb`): interact with the solution and view the intermediate results
 
 ## A few tips
 
