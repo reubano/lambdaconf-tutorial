@@ -25,7 +25,6 @@ def solution1():
     print('Edit me!')
 
 # Hint
-# View meza
 from urllib.request import urlopen
 from itertools import groupby
 from operator import itemgetter
