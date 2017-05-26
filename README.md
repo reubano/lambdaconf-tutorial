@@ -1,4 +1,4 @@
-[![Binder](http://mybinder.org/badge.svg)](http://beta.mybinder.org:/repo/reubano/lambdaconf-tutorial)
+[![Binder](http://mybinder.org/badge.svg)](http://beta.mybinder.org/v2/gh/reubano/lambdaconf-tutorial/master)
 
 # lambdaconf-tutorial
 
@@ -6,7 +6,7 @@ Materials for the LambdaConf tutorial, "A Functional Programming approach to dat
 
 ## Preparation
 
-This is an interactive (hands-on) tutorial. As such, you can choose to follow along [locally](#local) on your laptop, or [remotely](#remote) in a [binder notebook](http://beta.mybinder.org:/repo/reubano/lambdaconf-tutorial).
+This is an interactive (hands-on) tutorial. As such, you can choose to follow along [locally](#local) on your laptop, or [remotely](#remote) in a [binder notebook](http://beta.mybinder.org/v2/gh/reubano/lambdaconf-tutorial/master).
 
 ### Local
 
@@ -25,11 +25,12 @@ Make sure you have a recent version of [Python 3 and pip 3](http://docs.python-g
 python3 --version
 # Python 3.6.1
 
+pip3 install --upgrade pip
 pip3 --version
 # pip 9.0.1 from ...
 ```
 
-*(Optional)* Setup and activate a [virtual environment](http://docs.python-guide.org/en/latest/dev/        virtualenvs/#virtualenvironments-ref)
+(Optional) Setup and activate a [virtual environment](http://docs.python-guide.org/en/latest/dev/virtualenvs/#virtualenvironments-ref)
 
 ```bash
 pip3 install virtualenv
@@ -37,32 +38,70 @@ virtualenv lambdaconf-tutorial
 source lambdaconf-tutorial/bin/activate
 ```
 
-*(Optional)* install [jyupter](http://docs.python-guide.org/en/latest/dev/        virtualenvs/#virtualenvironments-ref)
+(Optional) install [iPython](https://ipython.readthedocs.io/en/stable/interactive/tutorial.html#the-four-most-helpful-commands), an enhanced Python shell
+
+```bash
+# if you are working in a virtualenv
+pip install ipython
+
+# if you are *not* in a virtualenv
+pip3 install --user ipython
+```
 
 Install the packages to be used during the workshop
 
-
 ```bash
-# if you are working in a virtualenv 
-pip install riko==0.51.0    
+# if you are working in a virtualenv
+pip install riko==0.51.0
 
-# if you are *not* in a virtualenv 
+# if you are *not* in a virtualenv
 pip3 install --user riko==0.51.0
-
 ```
 
-Start the interactive Python 
+Start the interactive Python
 
-Play around with the code
+```bash
+# if you installed iPython
+ipython
 
-- [Presentation](raw???presentation)
-- [Exercises](raw???exercises)
-- [Solutions](raw???solutions)
+# if you did *not* install iPython
+python3
+```
+
+Play around with the code. You should now be in an interactive shell that looks something like this:
+
+```
+Python 3.6.1 (default, May 24 2017, 01:02:17) 
+[GCC 4.2.1 Compatible Apple LLVM 6.0 (clang-600.0.57)] on darwin
+Type "help", "copyright", "credits" or "license" for more information.
+>>> 
+```
+
+In this interactive shell, you can enter any valid Python and immediately see the result.
+
+```
+>>> 1 + 3
+4
+>>> x = 1 + 3
+>>> x
+4
+```
+
+To play around with the code, view the following files in your text editor of choice.
+
+- [Presentation](https://github.com/reubano/lambdaconf-tutorial/blob/master/presentation.py): use to follow along as I talk, and reference during the exercises
+- [Exercises](https://github.com/reubano/lambdaconf-tutorial/blob/master/exercises.py): test your own code by typing `python3 exercises.py` in a terminal
+- [Solutions](https://github.com/reubano/lambdaconf-tutorial/blob/master/solutions.py): see how the solution should look by typing `python3 solutions.py` in a terminal. 
 
 ### Remote
 
-Play around with the code
+To play around with the code, [visit mybinder](http://beta.mybinder.org/v2/gh/reubano/lambdaconf-tutorial/master) and select the appropriate notebook.
 
-- [Presentation](http://beta.mybinder.org:/repo/reubano/lambdaconf-tutorial)
-- [Exercises](http://beta.mybinder.org:/repo/reubano/lambdaconf-tutorial)
-- [Solutions](http://beta.mybinder.org:/repo/reubano/lambdaconf-tutorial)
+- Presentation (`presentation.ipynb`): use to follow along as I talk, and reference during the exercises
+- Exercises (`exercises.ipynb`): test your own code by typing directly into your browser  
+- Solutions (`solution.ipynb`): interact with the solution and view the intermediate results 
+
+## A few tips
+
+- if you are new to Python, browse through the [Python tutorial](https://docs.python.org/3.6/tutorial/index.html)
+- if you are new to meza, checkout the [meza readme](https://github.com/reubano/meza/blob/master/README.rst#hello-world)
