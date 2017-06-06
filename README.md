@@ -3,6 +3,7 @@
 # lambdaconf-tutorial
 
 Materials for the LambdaConf tutorial, "A Functional Programming approach to data  processing in Python".
+Presentation slides can be found at https://speakerdeck.com/reubano/a-functional-programming-approach-to-data-processing-in-python
 
 ## Preparation
 
